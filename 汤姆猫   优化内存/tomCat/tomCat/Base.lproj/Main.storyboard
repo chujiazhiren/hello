@@ -1,185 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="y2Z-PY-9UY">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="CgN-H2-5RT">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="y2Z-PY-9UY" customClass="STViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iqq-NE-Rxb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry_00.jpg" id="9yc-r1-Kk7">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <view contentMode="scaleToFill" id="FHc-kQ-DZY">
+                                <frame key="frameInset" minX="40" minY="125" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CfE-bw-GIL">
-                                <rect key="frame" x="9" y="357" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rPM-pS-kZo">
+                                <frame key="frameInset" minX="56" minY="413" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="cymbal" backgroundImage="cynbals.png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="➕">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jMa-ho-M3I"/>
+                                    <action selector="addClick:" destination="y2Z-PY-9UY" eventType="touchUpInside" id="oSS-IW-z92"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZZO-zD-LEU">
-                                <rect key="frame" x="9" y="425" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gVf-uM-yBu">
+                                <frame key="frameInset" minX="213" minY="413" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="fart" backgroundImage="fart.png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="➖">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ltf-l2-0UH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EOM-vL-5MD">
-                                <rect key="frame" x="9" y="493" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="eat" backgroundImage="larry.png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uwV-p2-TIy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zC5-Hf-4vQ">
-                                <rect key="frame" x="250" y="352" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="drink" backgroundImage="milk.png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wMF-TC-7L2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1u6-rG-Vct">
-                                <rect key="frame" x="250" y="420" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="scratch" backgroundImage="pawn.png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c7H-i3-SY2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nIz-S9-zdf">
-                                <rect key="frame" x="250" y="488" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="pie" backgroundImage="pie.png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBn-qd-paW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T7b-eO-Eyw">
-                                <rect key="frame" x="62" y="82" width="197" height="205"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="knockout">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bWr-qo-Amj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VmC-BT-XLc">
-                                <rect key="frame" x="118" y="410" width="85" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="stomach">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LmL-jI-YAH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vrc-Hr-a3g">
-                                <rect key="frame" x="106" y="510" width="50" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="foot_right">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKP-gB-YN1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gbv-8C-d6d">
-                                <rect key="frame" x="206" y="439" width="41" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="angry">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2gY-Ic-llc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pvt-iw-q6j">
-                                <rect key="frame" x="164" y="510" width="50" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="foot_left">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eff-jW-F3s"/>
+                                    <action selector="deletaClick:" destination="y2Z-PY-9UY" eventType="touchUpInside" id="sLt-Zp-6rN"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="tom" destination="9yc-r1-Kk7" id="Ttj-4u-0v8"/>
+                        <outlet property="mainShopView" destination="FHc-kQ-DZY" id="Sy7-um-G5k"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKC-U0-5kX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="172" y="278"/>
+            <point key="canvasLocation" x="226" y="-70"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="angry_00.jpg" width="640" height="1024"/>
-        <image name="cynbals.png" width="60" height="60"/>
-        <image name="fart.png" width="60" height="60"/>
-        <image name="larry.png" width="60" height="60"/>
-        <image name="milk.png" width="60" height="60"/>
-        <image name="pawn.png" width="60" height="60"/>
-        <image name="pie.png" width="60" height="60"/>
-    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_0.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>
