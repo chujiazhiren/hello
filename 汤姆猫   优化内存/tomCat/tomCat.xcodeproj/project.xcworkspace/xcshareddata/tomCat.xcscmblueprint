@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E3D38ADD70906DBBEF57593A78D5574225DBDA66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E3D38ADD70906DBBEF57593A78D5574225DBDA66" : 9223372036854775807,
+    "0542F8277F8EB91C914E796D67C54F6BE9311703" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D9FA9623-90AF-4E83-9561-A8C2552B4503",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E3D38ADD70906DBBEF57593A78D5574225DBDA66" : "hello\/",
+    "0542F8277F8EB91C914E796D67C54F6BE9311703" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tomCat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "汤姆猫   优化内存\/tomCat\/tomCat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chujiazhiren\/studygit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0542F8277F8EB91C914E796D67C54F6BE9311703"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chujiazhiren\/hello.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3D38ADD70906DBBEF57593A78D5574225DBDA66"
+    }
+  ]
+}
